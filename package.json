@@ -1,0 +1,26 @@
+{
+  "name": "triumph-website",
+  "version": "1.0.0",
+  "description": "Triumph School volunteering website",
+  "main": "start.js",
+  "scripts": {
+    "start": "nodemon start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cleop/triumph-website.git"
+  },
+  "author": "Cleo Pearson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cleop/triumph-website/issues"
+  },
+  "homepage": "https://github.com/Cleop/triumph-website#readme",
+  "dependencies": {
+    "handlebars": "^4.0.6",
+    "hapi": "^16.0.2",
+    "inert": "^4.0.4",
+    "vision": "^4.1.1"
+  }
+}
