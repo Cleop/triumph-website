@@ -1,17 +1,8 @@
 const Hapi = require('hapi');
-const Vision = require('vision');
-const routes = require('./routes.js');
 const Inert = require('inert');
-
-// const defaultRoute = {
-//   method: 'GET',
-//   path: '/{param*}',
-//   handler: {
-//     directory: {
-//       path: './public'
-//     }
-//   }
-// };
+const Vision = require('vision');
+const Handlebars = require('handlebars');
+// const routes = require('./routes.js');
 
 const server = new Hapi.Server();
 
@@ -20,20 +11,40 @@ server.connection({
   port: process.env.PORT || 8080
 });
 
-// server.register([Inert, Vision], (registerError) => {
-//   server.views({
-//     engines: {
-//       hbs: require('handlebars')
-//     },
-//     relativeTo: __dirname,
-//     path: '../views',
-//     layoutPath: '../views/layout',
-//     layout: 'default'
-//   });
-//
-//   if (registerError) throw registerError;
-//   server.auth.strategy('session', 'cookie', cookieOptions);
-//   server.route([defaultRoute, ...routes]);
-// });
-//
+const routes = [
+  {
+    method: 'GET',
+    path: '/',
+    handler: (request, reply) => {
+      reply.view('index');
+    }
+  },
+  {
+    method: 'GET',
+    path: '/{file*}',
+    handler: {
+      directory: {
+        path: 'public'
+      }
+    }
+  },
+  ];
+
+server.register([Vision, Inert], err => {
+  if (err) throw err;
+
+  server.views({
+    engines: {
+      hbs: Handlebars
+    },
+    relativeTo: __dirname,
+    path: 'views',
+    layoutPath: 'views/layouts',
+    helpersPath: 'helpers',
+    layout: 'default'
+  });
+
+  server.route(routes);
+});
+
 module.exports = server;
