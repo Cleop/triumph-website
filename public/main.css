@@ -103,19 +103,24 @@ header {
 }
 
 /*Check what's neccessary*/
-.footer-links__link {
+.link {
   font-size: 0.8em;
   padding: 0em 2.5em;
   text-decoration: underline;
   color: black;
 }
 
-.footer-links__link:visited {
+.link--back-home{
+  display: block;
+  padding: 1em 0em;
+}
+
+.footer-links:visted link:visited {
   text-decoration: underline;
   color: black;
 }
 
-.footer-links__link:hover {
+.footer-links:hover link:hover {
   font-weight: bold;
 }
 
@@ -125,7 +130,6 @@ header {
 .cover {
   position: relative;
   display: block;
-  height: 15.6em;
 }
 
 .cover__img{
@@ -151,11 +155,21 @@ width:100%;
   color: white;
 }
 
+.cover__title--about {
+  top: 7%;
+  left: 25%;
+  color: black;
+  text-align: right;
+}
+
 .main {
   display: block;
-  margin: auto;
   text-align: center;
   margin-top: 1em;
+}
+
+.main__title {
+
 }
 
 .main__text {
