@@ -180,15 +180,17 @@ width:100%;
 }
 
 .gallery {
-  display: block;
-  margin: auto;
-  width: 100%;
   text-align: center;
+  height: 18.67em;
 }
 
 .gallery__title {
   color: #6FCF97;
   text-decoration: underline;
+}
+
+.gallery__img {
+width: 100%;
 }
 /*Index CSS ENDS*/
 
