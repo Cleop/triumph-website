@@ -21,6 +21,7 @@
     "handlebars": "^4.0.6",
     "hapi": "^16.0.2",
     "inert": "^4.0.4",
+    "normalize.css": "^5.0.0",
     "vision": "^4.1.1"
   }
 }
