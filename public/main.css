@@ -12,10 +12,10 @@ header {
 .nav-title {
   position: absolute;
   text-decoration: none;
-  font-size: 2.5em;
+  font-size: 1.9em;
   color: black;
   padding-left: 0.15em;
-  padding-top: 0.1em;
+  padding-top: 0.3em;
 }
 
 .hamburger {
