@@ -1,21 +1,28 @@
 body {
   font-family: 'Heebo', sans-serif;
-  margin: 0;
 }
 
 /*NAVBAR BEGINS*/
+header {
+  height: 3em;
+  display: block;
+  position: relative;
+}
 
 .nav-title {
+  position: absolute;
   text-decoration: none;
   font-size: 2.5em;
   color: black;
+  padding-left: 0.15em;
+  padding-top: 0.1em;
 }
 
 .hamburger {
-  font-size: 2.5em;
   position: absolute;
-  top: 0;
+  font-size: 2.5em;
   right: 0;
+  line-height: 0.9em;
 }
 
 .cross {
@@ -39,7 +46,7 @@ body {
   padding: 0;
 }
 .menu__list__item {
-  display: block;
+  display: none;
   padding:15px 0 15px 0;
   border-bottom: white 1px solid;
 }
@@ -65,6 +72,7 @@ body {
 
 /*FOOTER BEGINS*/
 .footer {
+  display: block;
   text-align: center;
 }
 
@@ -115,10 +123,9 @@ body {
 
 /*Index CSS Begins*/
 .cover {
-  height: 25em;
-  width: 100%;
-  /*display: block;*/
-  position: absolute;
+  position: relative;
+  display: block;
+  height: 15.6em;
 }
 
 .cover__img{
@@ -133,55 +140,97 @@ width:100%;
 }
 
 .cover__title--green {
-  top: 5%;
-  left: 53%;
+  top: 12%;
+  left: 55%;
   color: #6FCF97;
 }
 
 .cover__title--white {
-  top: 14%;
-  left: 63%;
+  top: 25%;
+  left: 65%;
   color: white;
 }
 
 .main {
-  /*display: block;*/
+  display: block;
   margin: auto;
   text-align: center;
+  margin-top: 1em;
+}
+
+.main__text {
+  width: 84%;
+  margin: auto;
+  padding: 0.5em 0em;
+  font-size: 0.9em;
+  line-height: 1.2em;
 }
 
 .square-menu {
   display: block;
-  margin: auto;
-  height: 200px;
+  height: 9em;
   background-color: #E0E0E0;
   text-align: center;
-  color: green;
-  text-decoration: none;
+  position: relative;
+}
+
+.square-menu__upper-left {
+  position: absolute;
+  padding-top: 2em;
+  width: 40%;
+  top: 1%;
+}
+
+.square-menu__upper-right {
+  position: absolute;
+  padding-top: 2em;
+  width: 42%;
+  left: 50%;
+}
+
+.square-menu__lower-left {
+  position: absolute;
+  width: 50%;
+  top: 60%;
+}
+.square-menu__lower-right {
+  position: absolute;
+  width: 50%;
+  top: 60%;
+  left: 50%;
 }
 
 .square-menu__apply {
+  color: #6FCF97;
   list-style-type: none;
+  display: inline-block;
   /*border-bottom-style: solid;
   border-bottom-color: black;
   border-bottom-width: medium;*/
 }
 
 .square-menu__volunteer {
+  /*display: inline-block;*/
+  color: #6FCF97;
   list-style-type: none;
 }
 
 .square-menu__about {
+  /*display: inline-block;*/
+  color: #6FCF97;
   list-style-type: none;
 }
 
 .square-menu__four {
+  /*display: inline-block;*/
+  color: #6FCF97;
   list-style-type: none;
 }
 
 .gallery {
+  display: block;
   text-align: center;
-  height: 18.67em;
+  height: 18.2em;
 }
 
 .gallery__title {
