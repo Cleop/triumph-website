@@ -1,3 +1,156 @@
 body {
-  background-color: grey;
+  font-family: 'Heebo', sans-serif;
 }
+
+/*NAVBAR BEGINS*/
+
+.nav-title {
+  text-decoration: none;
+  font-size: 2.5em;
+  color: black;
+}
+
+.hamburger {
+  font-size: 2.5em;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.cross {
+  font-size: 2.5em;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.menu {
+  position: absolute;
+  display: block;
+  width: 100%;
+  background: #E0E0E0;
+  font-size: 1em;
+  text-align: center;
+}
+.menu__list {
+  margin: 0;
+  padding: 0;
+}
+.menu__list__item {
+  display: block;
+  padding:15px 0 15px 0;
+  border-bottom: white 1px solid;
+}
+.menu__list__item:hover{
+  display: block;
+  background:#C4C4C4;
+  padding:15px 0 15px 0;
+  border-bottom: white 1px solid;
+}
+
+/*Check the need for this********/
+.menu ul li a {
+  margin: 0px;
+}
+
+/*Check the need for this********/
+.menu a{
+  text-decoration:none;
+  color: black;
+}
+
+/*NAVBAR ENDS*/
+
+/*FOOTER BEGINS*/
+.footer {
+  text-align: center;
+}
+
+.testimonial {
+  background-color: #E0E0E0;
+  display: block;
+  margin: auto;
+  height: 9em;
+  /*width: 100%;*/
+  /*text-align: center;*/
+}
+
+.testimonial__quote {
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+.testimonial__author {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/*.footer-links {
+  text-align: center;
+}*/
+
+/*Check what's neccessary*/
+.footer-links__link {
+  text-decoration: underline;
+  color: black;
+}
+
+.footer-links__link:visited {
+  text-decoration: underline;
+  color: black;
+}
+
+.footer-links__link:hover {
+  font-weight: bold;
+}
+
+/*FOOTER ENDS*/
+
+/*Index CSS Begins*/
+.cover {
+  height: 300px;
+  width: 100%;
+}
+
+.main {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.square-menu {
+  display: block;
+  margin: auto;
+  height: 200px;
+  background-color: #E0E0E0;
+  text-align: center;
+  color: green;
+  text-decoration: none;
+}
+
+.square-menu__apply {
+  list-style-type: none;
+  /*border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: medium;*/
+}
+
+.square-menu__volunteer {
+  list-style-type: none;
+}
+
+.square-menu__about {
+  list-style-type: none;
+}
+
+.square-menu__four {
+  list-style-type: none;
+}
+
+.gallery {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+/*Index CSS ENDS*/
