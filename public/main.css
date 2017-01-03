@@ -130,7 +130,6 @@ header {
 .cover {
   position: relative;
   display: block;
-  height: 15.6em;
 }
 
 .cover__img{
@@ -156,10 +155,21 @@ width:100%;
   color: white;
 }
 
+.cover__title--about {
+  top: 7%;
+  left: 25%;
+  color: black;
+  text-align: right;
+}
+
 .main {
   display: block;
   text-align: center;
   margin-top: 1em;
+}
+
+.main__title {
+
 }
 
 .main__text {
