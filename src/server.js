@@ -28,6 +28,13 @@ const routes = [
   },
   {
     method: 'GET',
+    path:'/about',
+    handler:(request, reply) => {
+      reply.view('about');
+    }
+  },
+  {
+    method: 'GET',
     path: '/{file*}',
     handler: {
       directory: {
