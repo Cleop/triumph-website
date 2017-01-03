@@ -21,6 +21,13 @@ const routes = [
   },
   {
     method: 'GET',
+    path:'/volunteer',
+    handler:(request, reply) => {
+      reply.view('volunteer');
+    }
+  },
+  {
+    method: 'GET',
     path: '/{file*}',
     handler: {
       directory: {
