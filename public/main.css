@@ -1,5 +1,6 @@
 body {
   font-family: 'Heebo', sans-serif;
+  margin: 0;
 }
 
 /*NAVBAR BEGINS*/
@@ -27,7 +28,7 @@ body {
 
 .menu {
   position: absolute;
-  display: block;
+  display: none;
   width: 100%;
   background: #E0E0E0;
   font-size: 1em;
@@ -78,12 +79,15 @@ body {
 
 .testimonial__quote {
   font-style: italic;
-  font-size: 1.1em;
+  font-size: 1em;
+  padding-top: 2em;
+  width: 90%;
+  margin: auto;
 }
 
 .testimonial__author {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 /*.footer-links {
@@ -109,12 +113,37 @@ body {
 
 /*Index CSS Begins*/
 .cover {
-  height: 300px;
+  height: 25em;
   width: 100%;
+  /*display: block;*/
+  position: absolute;
+}
+
+.cover__img{
+position: relative;
+width:100%;
+}
+
+.cover__title {
+  position: absolute;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.cover__title--green {
+  top: 23%;
+  left: 61%;
+  color: #6FCF97;
+}
+
+.cover__title--white {
+  top: 33%;
+  left: 71%;
+  color: white;
 }
 
 .main {
-  display: block;
+  /*display: block;*/
   margin: auto;
   text-align: center;
 }
@@ -152,6 +181,12 @@ body {
   display: block;
   margin: auto;
   width: 100%;
+  text-align: center;
+}
+
+.gallery__title {
+  color: #6FCF97;
+  text-decoration: underline;
 }
 /*Index CSS ENDS*/
 
