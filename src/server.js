@@ -36,7 +36,7 @@ const routes = [
   {
     method:'GET',
     path:'/apply',
-    handler(request, reply) => {
+    handler:(request, reply) => {
       reply.view('apply');
     }
   },
