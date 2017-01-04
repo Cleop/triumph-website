@@ -290,4 +290,13 @@ fieldset {
 .form__label{
   font-weight: 900;
 }
+
+.form__button{
+  margin-top: 1em;
+  padding: 0.8em;
+  border: 2px solid black;
+  color: #6FCF97;
+  background-color: white;
+  font-weight: 900;
+}
 /*Apply page ends*/
