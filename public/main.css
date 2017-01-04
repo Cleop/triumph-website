@@ -112,6 +112,7 @@ header {
 
 .link--back-home{
   display: block;
+  text-align: center;
   padding: 1em 0em;
 }
 
@@ -259,6 +260,7 @@ width: 100%;
 
 /*Volunteer page*/
 .key-details {
+  padding: 4%;
   background-color: #E0E0E0;
 }
 
