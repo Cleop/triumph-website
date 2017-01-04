@@ -1,5 +1,5 @@
-const apply = require('./routes/apply');
-
-module.exports = [
-  apply
-];
+// const apply = require('./routes/apply');
+//
+// module.exports = [
+//   apply
+// ];
