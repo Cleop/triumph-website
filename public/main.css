@@ -263,6 +263,12 @@ width: 100%;
   padding: 4%;
   background-color: #E0E0E0;
 }
-
-
 /*Volunteer page ends*/
+
+/*Apply page*/
+.application-form {
+  display: block;
+  padding: 4%;
+  line-height: 1.2em;
+}
+/*Apply page ends*/
