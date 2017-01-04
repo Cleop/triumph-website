@@ -1,77 +1,82 @@
 <section class="application-form">
   <h3 class="main__title">Apply</h3>
-<form method="post" action="/<br>" enctype="multipart/form-data">
-  <label for="first-name">First name </label>
-  <input class="input-block" name="first-name" size="20" maxlength="20" required></input><br>
-  <label for="last-name">Last name </label>
-  <input class="input-block" name="last-name" type="text" size="20" maxlength="25" required></input><br>
-  <label for="email">Email </label>
-  <input class="input-block" type="email" name="email" size="20" maxlength="30"required><br>
-  <label for="address"><strong>Home address</strong> </label><br>
-  <label for="building-and-street">Building and street </label>
-  <input class="input-block" name="building-and-street" type="text" required></input><br>
-  <label for="town">Town or city </label>
-  <input class="input-block" name="town" type="text" required></input><br>
-  <label for="county">County </label>
-  <input class="input-block" name="county" type="text"></input><br>
-  <label for="postcode">Postcode / ZIP code* </label>
-  <input class="input-block" name="postcode" type="text" required></input><br>
-  <label for="country">Country </label>
-  <input class="input-block" name="country" type="text" required></input><br>
-  <label for="phone">Phone number </label>
-  <input class="input-block" name="phone" type="number" maxlength="15" required></input><br>
-  <label for="dob">Date of birth </label>
-<select class="input-block" name="dob-month" required>
-  <option value="">Month</option>
-  <option value="01">January</option>
-  <option value="02">February</option>
-  <option value="03">March</option>
-  <option value="04">April</option>
-  <option value="05">May</option>
-  <option value="06">June</option>
-  <option value="07">July</option>
-  <option value="08">August</option>
-  <option value="09">September</option>
-  <option value="10">October</option>
-  <option value="11">November</option>
-  <option value="12">December</option>
-</select>
-<input class="input-block" name="dob-day" type="number" placeholder="Day" min="1" max="31" required></input>
-<input class="input-block" name="dob-year" type="number" placeholder="Year" min="1930" max="2017" required></input><br>
-  <label for="gender">Gender </label>
-  <input class="input-block" name="gender" type="text" required></input><br>
-  <label for="nationality">Nationality </label>
-  <input class="input-block" name="nationality" type="text" required></input><br>
-  <label for="occupation">Occupation </label>
-  <input class="input-block" name="occupation" type="text" required></input><br>
-  <label for="sos-contact">Emergency contact name </label>
-  <input class="input-block" name="sos-contact" type="text" required></input><br>
-  <label for="sos-contact-rel">Emergency contact relationship to you </label>
-  <input class="input-block" name="sos-contact-rel" type="text" required></input><br>
-  <label for="sos-contact-no">Emergency contact phone number </label>
-  <input class="input-block" name="sos-contact-no" type="number" maxlength="15" required></input><br>
-  <label for="medical-hist">Relevant medical history </label>
-  <input class="input-block" name="medical-hist" type="text" required></input><br>
-  <label for="start-date">Planned start date </label>
-  <input class="input-block" name="start-date" type="number" required></input><br>
-  <label for="end-date">Planned end date </label>
-  <input class="input-block" name="end-date" type="number" required></input><br>
-  <label for="about-you">Tell us a little bit about you </label>
-  <textarea rows="3" cols="40" name="about-you" class="input-block" required></textarea><br>
-  <label for="motivation">Why do you want to volunteer and what do you want to gain from the experience? </label>
-  <textarea rows="3" cols="40" name="motivation" class="input-block" required></textarea><br>
-  <label for="previous-exp">Do you have any previous volunteer experience or any related skills or qualifications you think would be useful when volunteering? </label>
-  <textarea rows="3" cols="40" name="previous-exp" class="input-block" required></textarea><br>
-  <label for="extra-comments">Any additional questions or comments</label><br>
-  <span class="form-hint">
-    For example, dietary requirements or applying as part of a group
-  </span>
-  <textarea rows="3" cols="40" name="extra-comments" class="input-block" required></textarea><br>
-  <label for="hear-about-Triumph">How did you hear about us?  </label><br>
-  <input type="radio" name="hear-about-Triumph" value="Search engine"> Search Engine</input>
-  <input type="radio" name="hear-about-Triumph" value="Past Volunteer"> Past Volunteer</input><br>
-  <input type="radio" name="hear-about-Triumph" value="KWW"> Kids Worldwide</input>
-  <input type="radio" name="hear-about-Triumph" value="Other"> Other</input><br>
-  <button type="submit">Submit Application</button>
-</form>
+  <form method="post" action="/<br>" enctype="multipart/form-data">
+    <label for="first-name">First name </label>
+    <input class="input-block" name="first-name" size="20" maxlength="20" required></input><br>
+    <label for="last-name">Last name </label>
+    <input class="input-block" name="last-name" type="text" size="20" maxlength="25" required></input><br>
+    <label for="email">Email </label>
+    <input class="input-block" type="email" name="email" size="20" maxlength="30"required><br>
+    <label for="phone">Phone number </label>
+    <input class="input-block" name="phone" type="number" maxlength="15" required></input><br>
+    <label for="dob">Date of birth </label>
+    <select class="input-block" name="dob-month" required>
+      <option value="">Month</option>
+      <option value="01">January</option>
+      <option value="02">February</option>
+      <option value="03">March</option>
+      <option value="04">April</option>
+      <option value="05">May</option>
+      <option value="06">June</option>
+      <option value="07">July</option>
+      <option value="08">August</option>
+      <option value="09">September</option>
+      <option value="10">October</option>
+      <option value="11">November</option>
+      <option value="12">December</option>
+    </select>
+    <input class="input-block" name="dob-day" type="number" placeholder="Day" min="1" max="31" required></input>
+    <input class="input-block" name="dob-year" type="number" placeholder="Year" min="1930" max="2017" required></input><br>
+    <label for="gender">Gender </label>
+    <input class="input-block" name="gender" type="text" required></input><br>
+    <label for="nationality">Nationality </label>
+    <input class="input-block" name="nationality" type="text" required></input><br>
+    <label for="occupation">Occupation </label>
+    <input class="input-block" name="occupation" type="text" required></input><br>
+    <fieldset>
+      <legend>Address</legend><br>
+      <label for="building-and-street">Building and street </label>
+      <input class="input-block" name="building-and-street" type="text" required></input><br>
+      <label for="town">Town or city </label>
+      <input class="input-block" name="town" type="text" required></input><br>
+      <label for="county">County </label>
+      <input class="input-block" name="county" type="text"></input><br>
+      <label for="postcode">Postcode / ZIP code </label>
+      <input class="input-block" name="postcode" type="text" required></input><br>
+      <label for="country">Country </label>
+      <input class="input-block" name="country" type="text" required></input><br>
+    </fieldset>
+    <fieldset>
+      <legend>Emergency Information</legend><br>
+    <label for="sos-contact">Emergency contact name </label>
+    <input class="input-block" name="sos-contact" type="text" required></input><br>
+    <label for="sos-contact-rel">Emergency contact relationship to you </label>
+    <input class="input-block" name="sos-contact-rel" type="text" required></input><br>
+    <label for="sos-contact-no">Emergency contact phone number </label>
+    <input class="input-block" name="sos-contact-no" type="number" maxlength="15" required></input><br>
+    <label for="medical-hist">Relevant medical history </label>
+    <input class="input-block" name="medical-hist" type="text" required></input><br>
+  </fieldset>
+    <label for="start-date">Planned start date </label>
+    <input class="input-block" name="start-date" type="number" required></input><br>
+    <label for="end-date">Planned end date </label>
+    <input class="input-block" name="end-date" type="number" required></input><br>
+    <label for="about-you">Tell us a little bit about you </label>
+    <textarea rows="3" cols="40" name="about-you" class="input-block" required></textarea><br>
+    <label for="motivation">Why do you want to volunteer and what do you want to gain from the experience? </label>
+    <textarea rows="3" cols="40" name="motivation" class="input-block" required></textarea><br>
+    <label for="previous-exp">Do you have any previous volunteer experience or any related skills or qualifications you think would be useful when volunteering? </label>
+    <textarea rows="3" cols="40" name="previous-exp" class="input-block" required></textarea><br>
+    <label for="extra-comments">Any additional questions or comments</label><br>
+    <span class="form-hint">
+      For example, dietary requirements or applying as part of a group
+    </span>
+    <textarea rows="3" cols="40" name="extra-comments" class="input-block" required></textarea><br>
+    <label for="hear-about-Triumph">How did you hear about us?  </label><br>
+    <input type="radio" name="hear-about-Triumph" value="Search engine"> Search Engine</input><br>
+    <input type="radio" name="hear-about-Triumph" value="Past Volunteer"> Past Volunteer</input><br>
+    <input type="radio" name="hear-about-Triumph" value="KWW"> Kids Worldwide</input><br>
+    <input type="radio" name="hear-about-Triumph" value="Other"> Other</input><br>
+    <button type="submit">Submit Application</button>
+  </form>
 </section>
