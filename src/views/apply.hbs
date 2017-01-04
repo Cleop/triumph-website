@@ -34,7 +34,7 @@
     <label for="occupation">Occupation </label>
     <input class="input-block" name="occupation" type="text" required></input><br>
     <fieldset>
-      <legend>Address</legend><br>
+      <legend class="visually-hidden">Address</legend><br>
       <label for="building-and-street">Building and street </label>
       <input class="input-block" name="building-and-street" type="text" required></input><br>
       <label for="town">Town or city </label>
@@ -47,16 +47,16 @@
       <input class="input-block" name="country" type="text" required></input><br>
     </fieldset>
     <fieldset>
-      <legend>Emergency Information</legend><br>
-    <label for="sos-contact">Emergency contact name </label>
-    <input class="input-block" name="sos-contact" type="text" required></input><br>
-    <label for="sos-contact-rel">Emergency contact relationship to you </label>
-    <input class="input-block" name="sos-contact-rel" type="text" required></input><br>
-    <label for="sos-contact-no">Emergency contact phone number </label>
-    <input class="input-block" name="sos-contact-no" type="number" maxlength="15" required></input><br>
-    <label for="medical-hist">Relevant medical history </label>
-    <input class="input-block" name="medical-hist" type="text" required></input><br>
-  </fieldset>
+      <legend class="visually-hidden">Emergency Information</legend><br>
+      <label for="sos-contact">Emergency contact name </label>
+      <input class="input-block" name="sos-contact" type="text" required></input><br>
+      <label for="sos-contact-rel">Emergency contact relationship to you </label>
+      <input class="input-block" name="sos-contact-rel" type="text" required></input><br>
+      <label for="sos-contact-no">Emergency contact phone number </label>
+      <input class="input-block" name="sos-contact-no" type="number" maxlength="15" required></input><br>
+      <label for="medical-hist">Relevant medical history </label>
+      <input class="input-block" name="medical-hist" type="text" required></input><br>
+    </fieldset>
     <label for="start-date">Planned start date </label>
     <input class="input-block" name="start-date" type="number" required></input><br>
     <label for="end-date">Planned end date </label>
@@ -72,11 +72,25 @@
       For example, dietary requirements or applying as part of a group
     </span>
     <textarea rows="3" cols="40" name="extra-comments" class="input-block" required></textarea><br>
-    <label for="hear-about-Triumph">How did you hear about us?  </label><br>
-    <input type="radio" name="hear-about-Triumph" value="Search engine"> Search Engine</input><br>
-    <input type="radio" name="hear-about-Triumph" value="Past Volunteer"> Past Volunteer</input><br>
-    <input type="radio" name="hear-about-Triumph" value="KWW"> Kids Worldwide</input><br>
-    <input type="radio" name="hear-about-Triumph" value="Other"> Other</input><br>
+    <fieldset>
+      <legend class="visually-hidden">How did you hear about us?</legend>
+      <label for="search-engine">
+        <input id="search-engine" type="radio" name="hear-about-Triumph" value="Search engine">
+        Search Engine
+      </label><br>
+      <label for="past-volunteer">
+        <input id="past-volunteer" type="radio" name="hear-about-Triumph" value="Past Volunteer">
+        Past Volunteer
+      </label><br>
+      <label for="kww">
+        <input id="kww" type="radio" name="hear-about-Triumph" value="KWW">
+        Kids Worldwide
+      </label><br>
+      <label for="other">
+        <input id="other" type="radio" name="hear-about-Triumph" value="Other">
+        Other
+      </label><br>
+    </fieldset>
     <button type="submit">Submit Application</button>
   </form>
 </section>
