@@ -77,13 +77,15 @@ header {
   padding-bottom: 1em;
 }
 
-.testimonial {
+.testimonial-box{
   background-color: #E0E0E0;
   display: block;
-  margin: auto;
   height: 9em;
-  /*width: 100%;*/
-  /*text-align: center;*/
+  margin: auto;
+}
+
+.testimonial {
+  display: none;
 }
 
 .testimonial__quote {
@@ -97,6 +99,16 @@ header {
 .testimonial__author {
   font-weight: bold;
   font-size: 1em;
+}
+
+.testimonial__circle {
+  height:13px;
+  width:13px;
+  display: inline-block;
+}
+
+.testimonial__circle--highlight {
+  color: green;
 }
 
 .footer-links {
