@@ -1,9 +1,8 @@
-  <img class="mySlides" src="img_nature_wide.jpg" style="width:100%">
-  <div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-</div>
+//   <div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+//     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+//     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+//     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+// </div>
 
 let slideIndex = 1;
 showDivs(slideIndex);
@@ -20,12 +19,12 @@ function showDivs(index) {
   }
   // Loop through all of the dots and set all of them to the empty dot class name, replacing the filled one
   for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace("white-dot", "empty-dot");
+     dots[i].className = dots[i].className.replace(" testimonial__circle--current", "");
   }
   // Set the testimonial of the index we are on -1 to be visible
   testimonials[slideIndex-1].style.display = "block";
-  // Set the dot of the index we are on -1 to be white
-  dots[slideIndex-1].className += "white-dot";
+  // Set the dot of the index we are on -1 to be red
+  dots[slideIndex-1].className += " testimonial__circle--current";
 }
 
 function plusDivs(index) {

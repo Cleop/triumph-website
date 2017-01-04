@@ -74,45 +74,57 @@ header {
 .footer {
   display: block;
   text-align: center;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 
 .testimonial-box{
-  background-color: #E0E0E0;
   display: block;
+  position: relative;
+  background-color: #E0E0E0;
   height: 9em;
   margin: auto;
 }
 
 .testimonial {
   display: none;
+  font-size: 1em;
 }
 
 .testimonial__quote {
+  display: block;
   font-style: italic;
-  font-size: 1em;
   padding-top: 2em;
   width: 90%;
   margin: auto;
+  min-height: 36px;
 }
 
 .testimonial__author {
+  display: block;
   font-weight: bold;
-  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+.testimonial__circles {
+  display: block;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  font-size: 0.5em;
 }
 
 .testimonial__circle {
-  height:13px;
+  /*margin: auto;*/
   width:13px;
-  display: inline-block;
 }
 
-.testimonial__circle--highlight {
-  color: green;
+.testimonial__circle--current {
+  color: red;
 }
 
 .footer-links {
-  padding: 0.5em 0em;
+  display: inline-block;
+  position: relative;
+  padding: 0.6em 0em 1em 0em;
 }
 
 /*Check what's neccessary*/
