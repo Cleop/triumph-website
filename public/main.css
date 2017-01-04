@@ -266,7 +266,7 @@ width: 100%;
 /*Volunteer page ends*/
 
 /*Apply page*/
-.application-form {
+.form {
   display: block;
   padding: 4%;
   line-height: 1.2em;
@@ -282,7 +282,7 @@ fieldset {
   text-align: left;r
 }
 
-.input-block {
+.form__input {
   border: 1px solid black;
   margin: 10px 0;
 }
