@@ -1,0 +1,107 @@
+<section class="form">
+  <h2 class="main__title">Apply</h2>
+  <fieldset>
+    <h3>Basic information</h3>
+    <legend class="visually-hidden">Basic information</legend>
+    <form method="post" action="/<br>" enctype="multipart/form-data">
+      <label  class="form__label"for="first-name">First name </label><br>
+      <input class="form__input" name="first-name" size="20" maxlength="20" required></input><br>
+      <label  class="form__label"for="last-name">Last name </label><br>
+      <input class="form__input" name="last-name" type="text" size="20" maxlength="25" required></input><br>
+      <label  class="form__label"for="email">Email </label><br>
+      <input class="form__input" type="email" name="email" size="20" maxlength="30"required><br>
+      <label  class="form__label"for="phone">Phone number </label><br>
+      <input class="form__input" name="phone" type="number" maxlength="15" required></input><br>
+      <label  class="form__label"for="dob">Date of birth </label><br>
+      <select class="form__input" name="dob-month" required>
+        <option value="">Month</option>
+        <option value="01">January</option>
+        <option value="02">February</option>
+        <option value="03">March</option>
+        <option value="04">April</option>
+        <option value="05">May</option>
+        <option value="06">June</option>
+        <option value="07">July</option>
+        <option value="08">August</option>
+        <option value="09">September</option>
+        <option value="10">October</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+      </select>
+      <input class="form__input" name="dob-day" type="number" placeholder="Day" min="1" max="100" required></input>
+      <input class="form__input" name="dob-year" type="number" placeholder="Year" min="1930" max="2017" required></input><br>
+      <label  class="form__label" for="gender">Gender </label><br>
+      <input class="form__input" name="gender" type="text" required></input><br>
+      <label  class="form__label" for="nationality">Nationality </label><br>
+      <input class="form__input" name="nationality" type="text" required></input><br>
+      <label  class="form__label" for="occupation">Occupation </label><br>
+      <input class="form__input" name="occupation" type="text" required></input><br>
+    </fieldset>
+    <fieldset>
+      <h3>Address</h3>
+      <legend class="visually-hidden">Address</legend>
+      <label class="form__label" for="building-and-street">Building and street </label><br>
+      <input class="form__input" name="building-and-street" type="text" required></input><br>
+      <label class="form__label" for="town">Town or city </label><br>
+      <input class="form__input" name="town" type="text" required></input><br>
+      <label class="form__label" for="county">County </label><br>
+      <input class="form__input" name="county" type="text"></input><br>
+      <label class="form__label" for="postcode">Postcode / ZIP code </label><br>
+      <input class="form__input" name="postcode" type="text" required></input><br>
+      <label class="form__label" for="country">Country </label><br>
+      <input class="form__input" name="country" type="text" required></input><br>
+    </fieldset>
+    <fieldset>
+      <h3>Emergency Information</h3>
+      <legend class="visually-hidden">Emergency Information</legend>
+      <label class="form__label" for="sos-contact">Emergency contact name </label><br>
+      <input class="form__input" name="sos-contact" type="text" required></input><br>
+      <label class="form__label" for="sos-contact-rel">Emergency contact relationship to you </label><br>
+      <input class="form__input" name="sos-contact-rel" type="text" required></input><br>
+      <label class="form__label" for="sos-contact-no">Emergency contact phone number </label><br>
+      <input class="form__input" name="sos-contact-no" type="number" maxlength="15" required></input><br>
+      <label class="form__label" for="medical-hist">Relevant medical history </label><br>
+      <input class="form__input" name="medical-hist" type="text" required></input><br>
+    </fieldset>
+    <fieldset>
+      <h3>Volunteering information</h3>
+      <legend class="visually-hidden">Volunteering information</legend>
+      <label class="form__label" for="start-date">Planned start date </label><br>
+      <input class="form__input" name="start-date" type="number" required></input><br>
+      <label class="form__label" for="end-date">Planned end date </label><br>
+      <input class="form__input" name="end-date" type="number" required></input><br>
+      <label class="form__label" for="about-you">Tell us a little bit about you </label><br>
+      <textarea rows="3" cols="39" name="about-you" class="form__input" required></textarea><br>
+      <label class="form__label" for="motivation">Why do you want to volunteer and what do you want to gain from the experience? </label><br>
+      <textarea rows="3" cols="39" name="motivation" class="form__input" required></textarea><br>
+      <label class="form__label" for="previous-exp">Do you have any previous volunteer experience or any related skills or qualifications you think would be useful when volunteering? </label><br>
+      <textarea rows="3" cols="39" name="previous-exp" class="form__input" required></textarea><br>
+      <label class="form__label" for="extra-comments">Any additional questions or comments</label><br><br>
+      <span class="form-hint">
+        For example, dietary requirements or applying as part of a group
+      </span>
+      <textarea rows="3" cols="39" name="extra-comments" class="form__input" required></textarea><br>
+    </fieldset>
+    <fieldset>
+      <h3>How did you hear about us?</h3>
+      <legend class="visually-hidden">How did you hear about us?</legend>
+      <label class="form__label" for="search-engine">
+        <input id="search-engine" type="radio" name="hear-about-Triumph" value="Search engine">
+        Search Engine
+      </label><br>
+      <label class="form__label" for="past-volunteer">
+        <input id="past-volunteer" type="radio" name="hear-about-Triumph" value="Past Volunteer">
+        Past Volunteer
+      </label><br>
+      <label class="form__label" for="kww">
+        <input id="kww" type="radio" name="hear-about-Triumph" value="KWW">
+        Kids Worldwide
+      </label><br>
+      <label class="form__label" for="other">
+        <input id="other" type="radio" name="hear-about-Triumph" value="Other">
+        Other
+      </label><br>
+    </fieldset>
+    <button class="form__button" type="submit">SUBMIT</button>
+  </form>
+</section>

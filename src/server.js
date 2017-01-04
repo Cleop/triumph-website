@@ -34,6 +34,13 @@ const routes = [
     }
   },
   {
+    method:'GET',
+    path:'/apply',
+    handler:(request, reply) => {
+      reply.view('apply');
+    }
+  },
+  {
     method: 'GET',
     path: '/{file*}',
     handler: {

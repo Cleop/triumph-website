@@ -74,6 +74,7 @@ header {
 .footer {
   display: block;
   text-align: center;
+  padding-bottom: 1em;
 }
 
 .testimonial {
@@ -263,6 +264,40 @@ width: 100%;
   padding: 4%;
   background-color: #E0E0E0;
 }
-
-
 /*Volunteer page ends*/
+
+/*Apply page*/
+.form {
+  display: block;
+  padding: 4%;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+fieldset {
+  border: none;
+  text-align: left;r
+}
+
+.form__input {
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+.form__label{
+  font-weight: 900;
+}
+
+.form__button{
+  margin-top: 1em;
+  padding: 0.8em;
+  border: 2px solid black;
+  color: #6FCF97;
+  background-color: white;
+  font-weight: 900;
+}
+/*Apply page ends*/
