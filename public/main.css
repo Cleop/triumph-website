@@ -256,6 +256,7 @@ width:100%;
 
 .gallery__img {
 width: 100%;
+display: none;
 }
 /*Index CSS ENDS*/
 
