@@ -18,7 +18,7 @@ header {
   padding-top: 0.3em;
 }
 
-.hamburger {
+#hamburger {
   position: absolute;
   font-size: 2.5em;
   right: 0;
@@ -33,9 +33,9 @@ header {
   right: 0;
 }
 
-.menu {
+#menu {
   position: absolute;
-  display: none;
+  z-index: -1;
   width: 100%;
   background: #E0E0E0;
   font-size: 1em;
@@ -46,7 +46,7 @@ header {
   padding: 0;
 }
 .menu__list__item {
-  display: none;
+  display: block;
   padding:15px 0 15px 0;
   border-bottom: white 1px solid;
 }
@@ -66,6 +66,10 @@ header {
 .menu a{
   text-decoration:none;
   color: black;
+}
+
+.show {
+  display: block;
 }
 
 /*NAVBAR ENDS*/
