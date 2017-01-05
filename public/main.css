@@ -49,27 +49,14 @@ header {
   display: block;
   padding:15px 0 15px 0;
   border-bottom: white 1px solid;
+  text-decoration:none;
+  color: black;
 }
 .menu__list__item:hover{
   display: block;
   background:#C4C4C4;
   padding:15px 0 15px 0;
   border-bottom: white 1px solid;
-}
-
-/*Check the need for this********/
-.menu ul li a {
-  margin: 0px;
-}
-
-/*Check the need for this********/
-.menu a{
-  text-decoration:none;
-  color: black;
-}
-
-.show {
-  display: block;
 }
 
 /*NAVBAR ENDS*/
