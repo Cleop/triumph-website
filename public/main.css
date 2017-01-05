@@ -67,7 +67,7 @@ header {
   padding-bottom: 2em;
 }
 
-.testimonial-box{
+.testimonial-section{
   display: block;
   position: relative;
   background-color: #E0E0E0;
@@ -103,12 +103,12 @@ header {
 }
 
 .testimonial__circle {
-  /*margin: auto;*/
   width:13px;
+  color: #828282;
 }
 
 .testimonial__circle--current {
-  color: red;
+  color: black;
 }
 
 .footer-links {
