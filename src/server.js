@@ -6,9 +6,9 @@ const Handlebars = require('handlebars');
 
 const server = new Hapi.Server();
 
+const port = process.env.PORT || 8000;
 server.connection({
-  host: 'localhost',
-  port: process.env.PORT || 8080
+  port
 });
 
 const routes = [
