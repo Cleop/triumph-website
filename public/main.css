@@ -58,7 +58,6 @@ header {
   padding:15px 0 15px 0;
   border-bottom: white 1px solid;
 }
-
 /*NAVBAR ENDS*/
 
 /*FOOTER BEGINS*/
@@ -285,6 +284,7 @@ display: none;
 /*Apply page*/
 .form {
   display: block;
+  background-color: white;
   padding: 4%;
   line-height: 1.2em;
   text-align: center;
