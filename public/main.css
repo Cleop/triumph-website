@@ -25,12 +25,12 @@ header {
   line-height: 0.9em;
 }
 
-.cross {
+#cross {
   font-size: 2.5em;
-  display: none;
   position: absolute;
   top: 0;
   right: 0;
+  display: none;
 }
 
 #menu {
