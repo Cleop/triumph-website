@@ -4,7 +4,8 @@
   "description": "Triumph School volunteering website",
   "main": "start.js",
   "scripts": {
-    "start": "nodemon start.js",
+    "start": "node start.js",
+    "devStart": "nodemon start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +24,8 @@
     "inert": "^4.0.4",
     "normalize.css": "^5.0.0",
     "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
