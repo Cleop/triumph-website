@@ -149,8 +149,8 @@ header {
 }
 
 .cover__img{
-position: relative;
-width:100%;
+  position: relative;
+  width:100%;
 }
 
 .cover__title {
@@ -179,13 +179,10 @@ width:100%;
 }
 
 .main {
+  background-color: white;
   display: block;
   text-align: center;
   margin-top: 1em;
-}
-
-.main__title {
-
 }
 
 .main__text {
@@ -269,8 +266,8 @@ width:100%;
 }
 
 .gallery__img {
-width: 100%;
-display: none;
+  width: 100%;
+  display: none;
 }
 /*Index CSS ENDS*/
 
@@ -317,3 +314,11 @@ fieldset {
   font-weight: 900;
 }
 /*Apply page ends*/
+
+/*FAQ page*/
+.faq{
+  display: block;
+  background-color: white;
+  padding: 4%;
+}
+/*FAQ page ends*/
