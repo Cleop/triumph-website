@@ -226,12 +226,12 @@ header {
 
 .square-menu__lower-left {
   position: absolute;
-  width: 50%;
+  width: 43%;
   top: 60%;
 }
 .square-menu__lower-right {
   position: absolute;
-  width: 50%;
+  width: 43%;
   top: 60%;
   left: 50%;
 }
@@ -239,6 +239,7 @@ header {
 .square-menu__apply {
   color: #6FCF97;
   list-style-type: none;
+  text-decoration: none;
   display: inline-block;
   /*border-bottom-style: solid;
   border-bottom-color: black;
@@ -249,18 +250,21 @@ header {
   /*display: inline-block;*/
   color: #6FCF97;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .square-menu__about {
   /*display: inline-block;*/
   color: #6FCF97;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .square-menu__four {
   /*display: inline-block;*/
   color: #6FCF97;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .gallery {
