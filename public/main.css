@@ -230,34 +230,39 @@ header {
 }
 
 .square-menu__apply {
+  display: inline-block;
   color: #27AE60;
   list-style-type: none;
   text-decoration: none;
-  display: inline-block;
-  /*border-bottom-style: solid;
-  border-bottom-color: black;
-  border-bottom-width: medium;*/
+  border-bottom-style: solid;
+  border-bottom-width: thin;
 }
 
 .square-menu__volunteer {
-  /*display: inline-block;*/
+  display: inline-block;
   color: #27AE60;
   list-style-type: none;
   text-decoration: none;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
 }
 
 .square-menu__about {
-  /*display: inline-block;*/
+  display: inline-block;
   color: #27AE60;
   list-style-type: none;
   text-decoration: none;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
 }
 
 .square-menu__four {
-  /*display: inline-block;*/
+  display: inline-block;
   color: #27AE60;
   list-style-type: none;
   text-decoration: none;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
 }
 
 .gallery {
