@@ -269,11 +269,6 @@ header {
   height: 18.2em;
 }
 
-.gallery__title {
-  color: #6FCF97;
-  text-decoration: underline;
-}
-
 .gallery__img {
   width: 100%;
   display: none;
