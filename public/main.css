@@ -168,9 +168,6 @@ header {
   position: absolute;
   font-weight: 900;
   font-size: 2em;
-}
-
-.cover__title--white {
   top: 6%;
   left: 55%;
   color: white;
@@ -329,7 +326,23 @@ fieldset {
 /*FAQ page ends*/
 
 /* SIZE 1*/
-@media (max-width: 768px) {
+@media (min-width: 600px) {
+  .cover__title {
+    font-size: 4em;
+  }
+
+  .cover {
+    margin: 5% 10%;
+  }
+  .main {
+    margin: 5% 10%;
+  }
+  .square-menu {
+    margin: 5% 10%;
+  }
+  .gallery {
+    margin: 5% 10%;
+  }
 
 }
 /*End of SIZE 1*/
