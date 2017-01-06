@@ -170,16 +170,15 @@ header {
   font-size: 2em;
 }
 
-.cover__title--green {
-  top: 12%;
+.cover__title--white {
+  top: 6%;
   left: 55%;
-  color: #6FCF97;
+  color: white;
 }
 
-.cover__title--white {
-  top: 25%;
-  left: 65%;
-  color: white;
+.cover__title--green {
+  color: #6FCF97;
+  font-size: inherit;
 }
 
 .cover__title--about {
