@@ -184,9 +184,13 @@ header {
 .main {
   background-color: white;
   display: block;
-  text-align: center;
+  text-align: left;
   margin-top: 1em;
   padding-bottom: 1em;
+}
+
+.main__title {
+  text-align: center;
 }
 
 .main__text {
@@ -295,7 +299,7 @@ header {
 
 fieldset {
   border: none;
-  text-align: left;r
+  text-align: left;
 }
 
 .form__input {
