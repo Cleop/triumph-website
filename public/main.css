@@ -181,13 +181,6 @@ header {
   font-size: inherit;
 }
 
-.cover__title--about {
-  top: 7%;
-  left: 25%;
-  color: black;
-  text-align: right;
-}
-
 .main {
   background-color: white;
   display: block;
