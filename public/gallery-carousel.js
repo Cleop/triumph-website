@@ -17,5 +17,5 @@ function carousel() {
 // Style the image which the index is on to display as block (ie. as visible)
   image[myIndex-1].style.display = "block";
 // Change image every 3 seconds
-  setTimeout(carousel, 3000);
+  setTimeout(carousel, 5000);
 }

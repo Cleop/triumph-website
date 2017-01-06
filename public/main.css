@@ -20,9 +20,13 @@ header {
 
 #hamburger {
   position: absolute;
+  background:none;
   right: 0;
   font-size: 2.3em;
   line-height: 1.1em;
+  outline:none;
+  cursor:pointer;
+  border:0;
 }
 
 #cross {
@@ -31,6 +35,10 @@ header {
   right: 0;
   font-size: 6.5em;
   line-height: 0.68em;
+  cursor:pointer;
+  outline:none;
+  border:0;
+  background:none;
 }
 
 #menu {
@@ -114,7 +122,7 @@ header {
 .footer-links {
   display: inline-block;
   position: relative;
-  padding: 0.6em 0em 1em 0em;
+  padding: 1em 0em 1em 0em;
 }
 
 /*Check what's neccessary*/
@@ -183,6 +191,7 @@ header {
   display: block;
   text-align: center;
   margin-top: 1em;
+  padding-bottom: 1em;
 }
 
 .main__text {
@@ -217,12 +226,12 @@ header {
 
 .square-menu__lower-left {
   position: absolute;
-  width: 50%;
+  width: 43%;
   top: 60%;
 }
 .square-menu__lower-right {
   position: absolute;
-  width: 50%;
+  width: 43%;
   top: 60%;
   left: 50%;
 }
@@ -230,6 +239,7 @@ header {
 .square-menu__apply {
   color: #6FCF97;
   list-style-type: none;
+  text-decoration: none;
   display: inline-block;
   /*border-bottom-style: solid;
   border-bottom-color: black;
@@ -240,29 +250,27 @@ header {
   /*display: inline-block;*/
   color: #6FCF97;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .square-menu__about {
   /*display: inline-block;*/
   color: #6FCF97;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .square-menu__four {
   /*display: inline-block;*/
   color: #6FCF97;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .gallery {
   display: block;
   text-align: center;
-  height: 18.2em;
-}
-
-.gallery__title {
-  color: #6FCF97;
-  text-decoration: underline;
+  height: 15.7em;
 }
 
 .gallery__img {
