@@ -71,8 +71,11 @@ header {
 /*FOOTER BEGINS*/
 .footer {
   display: block;
+  position: absolute;
+  width: 100%;
+  height: 12em;
+  background-color: white;
   text-align: center;
-  padding-bottom: 2em;
 }
 
 .testimonial-section{
@@ -330,3 +333,9 @@ fieldset {
   padding: 4%;
 }
 /*FAQ page ends*/
+
+/* SIZE 1*/
+@media (max-width: 768px) {
+
+}
+/*End of SIZE 1*/
