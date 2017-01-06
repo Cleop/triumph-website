@@ -20,9 +20,13 @@ header {
 
 #hamburger {
   position: absolute;
+  background:none;
   right: 0;
   font-size: 2.3em;
   line-height: 1.1em;
+  outline:none;
+  cursor:pointer;
+  border:0;
 }
 
 #cross {
@@ -31,6 +35,10 @@ header {
   right: 0;
   font-size: 6.5em;
   line-height: 0.68em;
+  cursor:pointer;
+  outline:none;
+  border:0;
+  background:none;
 }
 
 #menu {
