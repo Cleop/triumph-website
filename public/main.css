@@ -272,8 +272,7 @@ header {
 
 .gallery {
   display: block;
-  text-align: center;
-  height: 15.7em;
+  height: 15%;
 }
 
 .gallery__img {
