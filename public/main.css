@@ -122,7 +122,7 @@ header {
 .footer-links {
   display: inline-block;
   position: relative;
-  padding: 0.6em 0em 1em 0em;
+  padding: 1em 0em 1em 0em;
 }
 
 /*Check what's neccessary*/
@@ -191,6 +191,7 @@ header {
   display: block;
   text-align: center;
   margin-top: 1em;
+  padding-bottom: 1em;
 }
 
 .main__text {
