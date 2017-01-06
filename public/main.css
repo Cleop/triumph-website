@@ -176,11 +176,6 @@ header {
   color: white;
 }
 
-.cover__title--green {
-  color: #6FCF97;
-  font-size: inherit;
-}
-
 .main {
   background-color: white;
   display: block;
@@ -235,7 +230,7 @@ header {
 }
 
 .square-menu__apply {
-  color: #6FCF97;
+  color: #27AE60;
   list-style-type: none;
   text-decoration: none;
   display: inline-block;
@@ -246,21 +241,21 @@ header {
 
 .square-menu__volunteer {
   /*display: inline-block;*/
-  color: #6FCF97;
+  color: #27AE60;
   list-style-type: none;
   text-decoration: none;
 }
 
 .square-menu__about {
   /*display: inline-block;*/
-  color: #6FCF97;
+  color: #27AE60;
   list-style-type: none;
   text-decoration: none;
 }
 
 .square-menu__four {
   /*display: inline-block;*/
-  color: #6FCF97;
+  color: #27AE60;
   list-style-type: none;
   text-decoration: none;
 }
@@ -314,7 +309,7 @@ fieldset {
   margin-top: 1em;
   padding: 0.8em;
   border: 2px solid black;
-  color: #6FCF97;
+  color: #27AE60;
   background-color: white;
   font-weight: 900;
 }
