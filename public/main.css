@@ -343,6 +343,8 @@ fieldset {
   .gallery {
     margin: 5% 10%;
   }
-
+  #menu {
+  display: none;
+  }
 }
 /*End of SIZE 1*/
