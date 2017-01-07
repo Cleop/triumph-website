@@ -160,13 +160,16 @@ header {
 .cover {
   position: relative;
   display: inline-block;
-  background-color: black;
 }
 
 .cover__img{
   position: relative;
   width: 100%;
-  opacity: 0.6;
+}
+
+.filtered {
+  background-color: black;
+  opacity: 0.8;
 }
 
 .cover__title {
