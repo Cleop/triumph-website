@@ -20,7 +20,7 @@ header {
 
 #hamburger {
   position: absolute;
-  background:none;
+  background-color: none;
   right: 0;
   font-size: 2.3em;
   line-height: 1.1em;
@@ -35,17 +35,17 @@ header {
   right: 0;
   font-size: 6.5em;
   line-height: 0.68em;
-  cursor:pointer;
-  outline:none;
+  cursor: pointer;
+  outline: none;
   border:0;
-  background:none;
+  background-color: none;
 }
 
 #menu {
   position: absolute;
   z-index: -1;
   width: 100%;
-  background: #E0E0E0;
+  background-color: #E0E0E0;
   font-size: 1em;
   text-align: center;
 }
@@ -62,7 +62,7 @@ header {
 }
 .menu__list__item:hover{
   display: block;
-  background:#C4C4C4;
+  background-color:#C4C4C4;
   padding:15px 0 15px 0;
   border-bottom: white 1px solid;
 }
@@ -147,8 +147,8 @@ header {
   color: black;
 }
 
-.footer-links:hover link:hover {
-  font-weight: bold;
+.link:hover {
+  font-weight: 900;
 }
 
 /*FOOTER ENDS*/
@@ -334,17 +334,60 @@ fieldset {
   .cover {
     margin: 5% 10%;
   }
+
   .main {
     margin: 5% 10%;
   }
+
   .square-menu {
     margin: 5% 10%;
   }
+
   .gallery {
     margin: 5% 10%;
   }
+
   #menu {
-  display: none;
+    display: inline-block;
+    position: absolute;
+    text-align: right;
+    top: 3.7%;
+    right: 9%;
+    width: 60%;
+    background-color: white;
+    z-index: 0;
+  }
+
+  .menu__list{
+    list-style-type: none;
+    display: inline;
+  }
+
+  .menu__list__item {
+    position: relative;
+    display: inline-block;
+    padding: 2% 3%;
+  }
+
+  .menu__list__item:hover{
+    display: inline-block;
+    background-color: white;
+    padding: 2% 3%;
+    border-bottom: none;
+    font-weight: 900;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  #cross {
+    display: none;
+  }
+
+  .nav-title {
+    padding-left: 10%;
+    padding-top: 3%;
   }
 }
 /*End of SIZE 1*/
