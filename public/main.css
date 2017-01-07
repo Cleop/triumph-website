@@ -157,19 +157,21 @@ header {
 .cover {
   position: relative;
   display: block;
+  background-color: black;
 }
 
 .cover__img{
   position: relative;
-  width:100%;
+  width: 100%;
+  opacity: 0.6;
 }
 
 .cover__title {
   position: absolute;
-  font-weight: 900;
+  font-weight: 100;
   font-size: 2em;
-  top: 6%;
-  left: 55%;
+  top: 31%;
+  left: 20%;
   color: white;
 }
 
@@ -332,7 +334,7 @@ fieldset {
   }
 
   .cover {
-    margin: 5% 10%;
+    margin: 1% 0;
   }
 
   .main {
@@ -351,8 +353,8 @@ fieldset {
     display: inline-block;
     position: absolute;
     text-align: right;
-    top: 3.7%;
-    right: 9%;
+    top: 1.7%;
+    right: 0%;
     width: 60%;
     background-color: white;
     z-index: 0;
@@ -366,13 +368,13 @@ fieldset {
   .menu__list__item {
     position: relative;
     display: inline-block;
-    padding: 2% 3%;
+    padding: 1.5% 3%;
   }
 
   .menu__list__item:hover{
     display: inline-block;
     background-color: white;
-    padding: 2% 3%;
+    padding: 1.5% 3%;
     border-bottom: none;
     font-weight: 900;
   }
@@ -387,7 +389,7 @@ fieldset {
 
   .nav-title {
     padding-left: 10%;
-    padding-top: 3%;
+    padding-top: 1.5%;
   }
 }
 /*End of SIZE 1*/
