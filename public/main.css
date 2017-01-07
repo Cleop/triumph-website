@@ -333,7 +333,7 @@ fieldset {
 }
 /*FAQ page ends*/
 
-/* SIZE 1*/
+/* Larger than Ipad*/
 @media (min-width: 600px) {
   .cover__title {
     font-size: 4em;
