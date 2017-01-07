@@ -191,6 +191,7 @@ header {
 
 .main__title {
   text-align: center;
+  margin-top: 0;
 }
 
 .main__text {
