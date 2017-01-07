@@ -341,10 +341,6 @@ fieldset {
     margin: 5% 10%;
   }
 
-  .square-menu {
-    margin: 5% 10%;
-  }
-
   .gallery {
     margin: 5% 10%;
   }
@@ -388,8 +384,8 @@ fieldset {
   }
 
   .nav-title {
-    padding-left: 10%;
-    padding-top: 1.5%;
+    padding-left: 3%;
+    padding-top: 1.3%;
   }
 }
 /*End of SIZE 1*/
