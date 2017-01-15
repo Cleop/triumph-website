@@ -48,6 +48,13 @@ const routes = [
     }
   },
   {
+    method:'GET',
+    path:'/contact',
+    handler:(request, reply) => {
+      request.headers['content-type'] === 'text' ? reply().code(400) : reply.view('contact');
+    }
+  },
+  {
     method: 'GET',
     path: '/{file*}',
     handler: {
