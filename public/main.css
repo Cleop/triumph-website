@@ -294,6 +294,7 @@ header {
 .key-details {
   padding: 4%;
   background-color: #E0E0E0;
+  border-bottom: 1.5px solid white;
 }
 /*Volunteer page ends*/
 
