@@ -7,8 +7,7 @@
     "start": "node start.js",
     "devStart": "nodemon start.js",
     "test": "tape './src/test/*.js'",
-    "coverage": "node ./node_modules/.bin/istanbul cover ./src/test/*.js && istanbul report lcov && codecov",
-    "codecov": "source config.env && ./node_modules/.bin/codecov"
+    "coverage": "istanbul cover './src/test/*.js'"
   },
   "repository": {
     "type": "git",
