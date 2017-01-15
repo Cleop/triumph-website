@@ -16,35 +16,35 @@ const routes = [
     method: 'GET',
     path: '/',
     handler: (request, reply) => {
-      reply.view('index');
+      request.headers['content-type'] === 'text' ? reply().code(400) : reply.view('index');
     }
   },
   {
     method: 'GET',
     path:'/volunteer',
     handler:(request, reply) => {
-      reply.view('volunteer');
+      request.headers['content-type'] === 'text' ? reply().code(400) : reply.view('volunteer');
     }
   },
   {
     method: 'GET',
     path:'/about',
     handler:(request, reply) => {
-      reply.view('about');
+      request.headers['content-type'] === 'text' ? reply().code(400) : reply.view('about');
     }
   },
   {
     method:'GET',
     path:'/apply',
     handler:(request, reply) => {
-      reply.view('apply');
+      request.headers['content-type'] === 'text' ? reply().code(400) : reply.view('apply');
     }
   },
   {
     method:'GET',
     path:'/faq',
     handler:(request, reply) => {
-      reply.view('faq');
+      request.headers['content-type'] === 'text' ? reply().code(400) : reply.view('faq');
     }
   },
   {
