@@ -294,6 +294,7 @@ header {
 .key-details {
   padding: 4%;
   background-color: #E0E0E0;
+  border-bottom: 1.5px solid white;
 }
 /*Volunteer page ends*/
 
@@ -358,6 +359,11 @@ fieldset {
 
   .gallery {
     margin: 5% 10%;
+  }
+
+  .form {
+    margin: 3% 10%;
+    padding: 0.5em 0em;
   }
 
   #menu {
