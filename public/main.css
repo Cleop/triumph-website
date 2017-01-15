@@ -360,6 +360,11 @@ fieldset {
     margin: 5% 10%;
   }
 
+  .form {
+    margin: 3% 10%;
+    padding: 0.5em 0em;
+  }
+
   #menu {
     display: inline-block;
     position: absolute;
