@@ -192,6 +192,11 @@ header {
   padding-bottom: 1em;
 }
 
+.main--contact {
+  height: 24em;
+  text-align: center;
+}
+
 .main__title {
   text-align: center;
   margin-top: 0;
