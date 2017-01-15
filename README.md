@@ -1,5 +1,7 @@
 # triumph-website
 
+[![codecov](https://codecov.io/gh/Cleop/triumph-website/branch/master/graph/badge.svg)](https://codecov.io/gh/Cleop/triumph-website)
+
 ## Background
 
 Triumph is a junior school for rural children in Mowire, Ghana. The school welcomes volunteers from around the world to help support its growth and the improvement of the quality of the education of its children.
