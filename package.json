@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node start.js",
     "devStart": "nodemon start.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape './src/test/*.js'",
+    "coverage": "node ./node_modules/.bin/istanbul cover ./src/test/*.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,8 @@
     "vision": "^4.1.1"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "istanbul": "^0.4.5",
+    "nodemon": "^1.11.0",
+    "tape": "^4.6.3"
   }
 }
