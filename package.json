@@ -7,7 +7,6 @@
     "start": "node start.js",
     "devStart": "nodemon start.js",
     "test": "tape './src/test/*.js'",
-    "coverage": "istanbul cover './src/test/*.js'"
   },
   "repository": {
     "type": "git",
