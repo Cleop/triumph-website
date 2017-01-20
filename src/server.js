@@ -63,7 +63,7 @@ const routes = [
       }
     }
   },
-  ];
+];
 
 server.register([Vision, Inert], err => {
   if (err) throw err;
