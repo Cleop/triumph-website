@@ -12,9 +12,9 @@ Create a website that enables prospective volunteers to apply to volunteer at Tr
 
 ## Why?
 
-At present, Triumph has no website of its own. In the past volunteers have come across the school via [Kids Worldwide](http://www.kidsworldwide.org/publication_details_idx.php?publication_id=33). However as they do not manage Kids Worldwide it means that they cannot amend the content/ look of the site as they may if they had their own. This site also features other volunteering projects meaning visitors to it have to look further to find Triumph before learning about it.
+Triumph were suffering from a reduction in volunteers and identified their lack of website to be a key factor in losing applicants.
 
-In recent years Triumph has seen a fall in volunteer numbers. This website is being built to try and rectify this fall.
+In the past volunteers have come across the school via [Kids Worldwide](http://www.kidsworldwide.org/publication_details_idx.php?publication_id=33). However as Triumph do not manage Kids Worldwide they cannot amend the content/ look of the site easily. This site also features other volunteering projects meaning visitors to it have to look further to find Triumph before learning about it.
 
 ## User Stories
 
@@ -36,11 +36,18 @@ In recent years Triumph has seen a fall in volunteer numbers. This website is be
 
 ## How?
 
-This site will be a MVP.
-- The core functionality will be a form for applicants to use.
-- It will use handlebars for repetitive content (e.g. navbar, footer)
-- The backend will use node
-- It will be hosted on heroku
-- It will be mobile-first
+- Initial MVP shipped within 2 weeks.
+- Front-end in javascript
+- Back-end using node.js and hapi
+- Hosted on heroku
+- Semantic HTML
+- CSS3 with BEM
+- Uses handlebars templating
+- Tape testing
+- Istanbul code coverage
+- Travis Continuous Integration
+- Built responsive and mobile-first to target the mobile-browsing habits of young people (the modal volunteer demographic).
+- Features form submission
 
-- At a later date it may feature an online donation feature
+### Stretch Goals
+- Add an online donation feature
