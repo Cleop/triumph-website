@@ -1,12 +1,12 @@
 let myIndex = 0;
-galleryCarousel();
 
-function galleryCarousel() {
+function carousel() {
+  // Change image every 4 seconds
   let i;
-  var image = document.getElementsByClassName('gallery__img');
+  var image = document.getElementsByClassName("gallery__img");
 // Set all images to not display
   for (i = 0; i < image.length; i++) {
-    image[i].style.display = 'none';
+    image[i].style.display = "none";
   }
 // Move up through the index of images by 1 each time the function is called
   myIndex++;
@@ -15,7 +15,7 @@ function galleryCarousel() {
     myIndex = 1
   }
 // Style the image which the index is on to display as block (ie. as visible)
-  image[myIndex-1].style.display = 'block';
-// Change image every 3 seconds
-  setTimeout(carousel, 5000);
+  image[myIndex-1].style.display = "block";
 }
+
+setInterval(carousel, 4000);
