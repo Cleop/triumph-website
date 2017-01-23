@@ -164,6 +164,14 @@ header {
   overflow: hidden;
 }
 
+.cover--smaller {
+  margin: 1% 0;
+  height: 40vh;
+  overflow: hidden;
+  background-size: cover;
+  background-position: bottom;
+}
+
 .cover__img{
   position: relative;
   width: 100%;
@@ -374,14 +382,6 @@ fieldset {
     font-size: 4em;
   }
 
-  .cover {
-    margin: 1% 0;
-    height: 78vh;
-    overflow: hidden;
-    background-size: cover;
-    background-position: bottom;
-  }
-
   .cover--smaller {
     margin: 1% 0;
     height: 60vh;
@@ -392,6 +392,11 @@ fieldset {
 
   .cover__landing {
     height: 80vh;
+    background-position: center;
+  }
+
+  .cover__volunteer {
+    background-position: center;
   }
 
   .main {
