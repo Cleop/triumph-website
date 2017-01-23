@@ -170,6 +170,18 @@ header {
   overflow: hidden;
 }
 
+.cover__about {
+  background-image: url("images/triumph.jpg");
+}
+
+.cover__volunteer {
+  background-image: url("images/nancy-dance.jpg");
+}
+
+.cover__landing {
+  background-image: url("images/excitement.jpg");
+}
+
 .filtered {
   background-color: black;
   opacity: 0.7;
@@ -366,6 +378,8 @@ fieldset {
     margin: 1% 0;
     height: 78vh;
     overflow: hidden;
+    background-size: cover;
+    background-position: bottom;
   }
 
   .cover--smaller {
@@ -376,8 +390,8 @@ fieldset {
     background-position: bottom;
   }
 
-  .cover__about {
-    background-image: url("images/triumph.jpg");
+  .cover__landing {
+    height: 80vh;
   }
 
   .main {
