@@ -160,11 +160,13 @@ header {
 .cover {
   position: relative;
   display: inline-block;
+  overflow: hidden;
 }
 
 .cover__img{
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 .filtered {
@@ -350,6 +352,7 @@ fieldset {
 
   .cover {
     margin: 1% 0;
+    height: 78vh;
   }
 
   .main {
