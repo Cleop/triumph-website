@@ -42,8 +42,9 @@ header {
 }
 
 #menu {
+  display: none;
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   width: 100%;
   background-color: #E0E0E0;
   font-size: 1em;
@@ -336,6 +337,17 @@ fieldset {
 }
 /*Apply page ends*/
 
+/*About page*/
+.main__school-directors {
+  text-align: center;
+}
+
+.main__school-directors__img {
+  position: relative;
+  width: 100%;
+}
+/*About page ends*/
+
 /*FAQ page*/
 .faq{
   display: block;
@@ -409,6 +421,10 @@ fieldset {
   .nav-title {
     padding-left: 3%;
     padding-top: 1.3%;
+  }
+
+  .main__school-directors__img {
+    width: 75%;
   }
 }
 /*End of SIZE 1*/
