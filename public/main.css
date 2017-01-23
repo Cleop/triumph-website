@@ -365,6 +365,19 @@ fieldset {
   .cover {
     margin: 1% 0;
     height: 78vh;
+    overflow: hidden;
+  }
+
+  .cover--smaller {
+    margin: 1% 0;
+    height: 60vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .cover__about {
+    background-image: url("images/triumph.jpg");
   }
 
   .main {
