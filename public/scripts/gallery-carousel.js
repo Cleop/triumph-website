@@ -1,7 +1,7 @@
-let myIndex = 0;
+var myIndex = 0;
 
 function carousel() {
-  let i;
+  var i;
   var image = document.getElementsByClassName("gallery__img");
 // Set all images to not display
   for (i = 0; i < image.length; i++) {
