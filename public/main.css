@@ -121,24 +121,19 @@ body {
   position: relative;
   padding: 1em 0em 1em 0em;
 }
-/*Check what's neccessary*/
 .link {
   color: black;
   font-size: 0.8em;
   padding: 0em 2.5em;
   text-decoration: underline;
 }
+.link:hover {
+  font-weight: 900;
+}
 .link--back-home {
   display: block;
   padding: 1em 0em;
   text-align: center;
-}
-.footer-links:visted link:visited {
-  color: black;
-  text-decoration: underline;
-}
-.link:hover {
-  font-weight: 900;
 }
 /*FOOTER ENDS*/
 
