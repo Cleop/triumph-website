@@ -4,41 +4,43 @@ body {
 
 /*NAVBAR BEGINS*/
 .nav {
-  height: 3em;
   display: block;
+  height: 3em;
   position: relative;
 }
 
 .nav__title {
+  color: black;
+  font-size: 1.9em;
+  padding-top: 0.3em;
+  padding-left: 0.15em;
   position: absolute;
   text-decoration: none;
-  font-size: 1.9em;
-  color: black;
-  padding-left: 0.15em;
-  padding-top: 0.3em;
 }
 
 #nav__hamburger {
-  position: absolute;
   background: none;
-  right: 0;
+  border:0;
+  cursor:pointer;
   font-size: 2.3em;
   line-height: 1.1em;
   outline:none;
-  cursor:pointer;
-  border:0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 #nav__cross {
+  background: none;
+  border:0;
+  cursor: pointer;
   display: none;
-  position: absolute;
-  right: 0;
   font-size: 6.5em;
   line-height: 0.68em;
-  cursor: pointer;
+  position: absolute;
   outline: none;
-  border:0;
-  background: none;
+  right: 0;
+  top: 0;
 }
 
 #nav__menu {
