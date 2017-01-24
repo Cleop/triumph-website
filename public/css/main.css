@@ -156,13 +156,13 @@ body {
   width: 100%;
 }
 .cover__about {
-  background-image: url("images/triumph.jpg");
+  background-image: url("../images/triumph.jpg");
 }
 .cover__volunteer {
-  background-image: url("images/nancy-dance.jpg");
+  background-image: url("../images/nancy-dance.jpg");
 }
 .cover__landing {
-  background-image: url("images/excitement.jpg");
+  background-image: url("../images/excitement.jpg");
 }
 .filtered {
   background-color: black;
