@@ -145,11 +145,6 @@ body {
   margin: 1% 0;
   overflow: hidden;
 }
-.cover__img {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
 .cover__about {
   background-image: url("../images/triumph.jpg");
 }
@@ -252,10 +247,12 @@ body {
 .gallery {
   display: block;
   height: 15%;
+  text-align: center;
 }
 .gallery__img {
   display: none;
-  width: 100%;
+  margin: auto;
+  max-height: 400px;
 }
 /*Index CSS ENDS*/
 
