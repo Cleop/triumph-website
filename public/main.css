@@ -3,13 +3,13 @@ body {
 }
 
 /*NAVBAR BEGINS*/
-header {
+.nav {
   height: 3em;
   display: block;
   position: relative;
 }
 
-.nav-title {
+.nav__title {
   position: absolute;
   text-decoration: none;
   font-size: 1.9em;
@@ -18,7 +18,7 @@ header {
   padding-top: 0.3em;
 }
 
-#hamburger {
+#nav__hamburger {
   position: absolute;
   background: none;
   right: 0;
@@ -29,7 +29,7 @@ header {
   border:0;
 }
 
-#cross {
+#nav__cross {
   display: none;
   position: absolute;
   right: 0;
@@ -41,7 +41,7 @@ header {
   background: none;
 }
 
-#menu {
+#nav__menu {
   display: none;
   position: absolute;
   z-index: 1;
@@ -412,7 +412,7 @@ fieldset {
     padding: 0.5em 0em;
   }
 
-  #menu {
+  #nav__menu {
     display: inline-block;
     position: absolute;
     text-align: right;
@@ -442,11 +442,11 @@ fieldset {
     font-weight: 900;
   }
 
-  #hamburger {
+  #nav__hamburger {
     display: none;
   }
 
-  #cross {
+  #nav__cross {
     display: none;
   }
 
