@@ -139,11 +139,6 @@ body {
 
 /*Index CSS Begins*/
 .cover {
-  display: inline-block;
-  overflow: hidden;
-  position: relative;
-}
-.cover--smaller {
   background-position: bottom;
   background-size: cover;
   height: 40vh;
@@ -324,7 +319,7 @@ fieldset {
   .cover__title {
     font-size: 4em;
   }
-  .cover--smaller {
+  .cover {
     background-size: cover;
     background-position: bottom;
     height: 60vh;
