@@ -2,7 +2,6 @@ const Hapi = require('hapi');
 const Inert = require('inert');
 const Vision = require('vision');
 const Handlebars = require('handlebars');
-// const routes = require('./routes.js');
 
 const server = new Hapi.Server();
 

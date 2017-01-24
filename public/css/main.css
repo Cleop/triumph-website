@@ -3,357 +3,296 @@ body {
 }
 
 /*NAVBAR BEGINS*/
-header {
-  height: 3em;
+.nav {
   display: block;
+  height: 3em;
   position: relative;
 }
-
-.nav-title {
+.nav__title {
+  color: black;
+  font-size: 1.9em;
+  padding-top: 0.3em;
+  padding-left: 0.15em;
   position: absolute;
   text-decoration: none;
-  font-size: 1.9em;
-  color: black;
-  padding-left: 0.15em;
-  padding-top: 0.3em;
 }
-
-#hamburger {
-  position: absolute;
+#nav__hamburger {
   background: none;
-  right: 0;
+  border:0;
+  cursor: pointer;
   font-size: 2.3em;
   line-height: 1.1em;
-  outline:none;
-  cursor:pointer;
-  border:0;
-}
-
-#cross {
-  display: none;
+  outline: none;
   position: absolute;
   right: 0;
+  top: 0;
+}
+#nav__cross {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  display: none;
   font-size: 6.5em;
   line-height: 0.68em;
-  cursor: pointer;
-  outline: none;
-  border:0;
-  background: none;
-}
-
-#menu {
-  display: none;
   position: absolute;
-  z-index: 1;
-  width: 100%;
+  outline: none;
+  right: 0;
+  top: 0;
+}
+#nav__menu {
   background-color: #E0E0E0;
+  display: none;
   font-size: 1em;
+  position: absolute;
   text-align: center;
+  width: 100%;
+  z-index: 1;
 }
 .menu__list {
   margin: 0;
   padding: 0;
 }
 .menu__list__item {
-  display: block;
-  padding:15px 0 15px 0;
   border-bottom: white 1px solid;
-  text-decoration:none;
   color: black;
-}
-.menu__list__item:hover{
   display: block;
-  background-color:#C4C4C4;
-  padding:15px 0 15px 0;
+  padding: 15px 0 15px 0;
+  text-decoration: none;
+}
+.menu__list__item:hover {
+  background-color: #C4C4C4;
   border-bottom: white 1px solid;
+  display: block;
+  padding: 15px 0 15px 0;
 }
 /*NAVBAR ENDS*/
 
 /*FOOTER BEGINS*/
 .footer {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 18%;
   background-color: white;
+  display: block;
+  height: 18%;
+  position: absolute;
   text-align: center;
+  width: 100%;
 }
-
-.footer__testimonial-section{
+.footer__testimonial-section {
+  background-color: #E0E0E0;
   display: block;
   position: relative;
-  background-color: #E0E0E0;
   height: 9em;
   margin: auto;
 }
-
 .testimonial {
   display: none;
-  width: 85%;
-  margin: auto;
   font-size: 1em;
+  margin: auto;
+  width: 85%;
 }
-
 .testimonial__quote {
   display: block;
   font-style: italic;
-  padding-top: 2em;
-  width: 90%;
   margin: auto;
   min-height: 36px;
+  padding-top: 2em;
+  width: 90%;
 }
-
 .testimonial__author {
   display: block;
   font-weight: bold;
   margin-bottom: 0.5em;
 }
-
 .testimonial__circles {
+  background-color: inherit;
   display: block;
+  font-size: 0.5em;
   padding-top: 1em;
   padding-bottom: 1.5em;
-  font-size: 0.5em;
-  background-color: inherit;
 }
-
 .testimonial__circle {
-  width:13px;
   color: #828282;
+  width: 13px;
 }
-
 .testimonial__circle--current {
   color: black;
 }
-
 .footer-links {
   display: inline-block;
   position: relative;
   padding: 1em 0em 1em 0em;
 }
-
-/*Check what's neccessary*/
 .link {
+  color: black;
   font-size: 0.8em;
   padding: 0em 2.5em;
   text-decoration: underline;
-  color: black;
 }
-
-.link--back-home{
-  display: block;
-  text-align: center;
-  padding: 1em 0em;
-}
-
-.footer-links:visted link:visited {
-  text-decoration: underline;
-  color: black;
-}
-
 .link:hover {
   font-weight: 900;
 }
-
+.link--back-home {
+  display: block;
+  padding: 1em 0em;
+  text-align: center;
+}
 /*FOOTER ENDS*/
 
 /*Index CSS Begins*/
 .cover {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-}
-
-.cover--smaller {
-  margin: 1% 0;
-  height: 40vh;
-  overflow: hidden;
-  background-size: cover;
   background-position: bottom;
-}
-
-.cover__img{
-  position: relative;
-  width: 100%;
+  background-size: cover;
+  height: 40vh;
+  margin: 1% 0;
   overflow: hidden;
 }
-
 .cover__about {
-  background-image: url("images/triumph.jpg");
+  background-image: url("../images/triumph.jpg");
 }
-
-.cover__volunteer {
-  background-image: url("images/nancy-dance.jpg");
+.cover__apply {
+  background-image: url("../images/football.png");
 }
-
 .cover__landing {
-  background-image: url("images/excitement.jpg");
+  background-image: url("../images/excitement.jpg");
 }
-
+.cover__volunteer {
+  background-image: url("../images/nancy-dance.jpg");
+}
 .filtered {
   background-color: black;
   opacity: 0.7;
 }
-
-.cover__title {
-  position: absolute;
-  text-align: center;
-  font-weight: 100;
-  top: 8%;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  color: white;
-}
-
 .main {
   background-color: white;
   display: block;
-  text-align: left;
   padding-top: 1em;
   padding-bottom: 1em;
+  text-align: left;
 }
-
 .main--contact {
   height: 24em;
   text-align: center;
 }
-
 .main__title {
-  text-align: center;
   margin-top: 0;
+  text-align: center;
 }
-
 .main__text {
-  width: 84%;
+  line-height: 1.2em;
   margin: auto;
   padding: 0.5em 0em;
-  line-height: 1.2em;
+  width: 84%;
 }
-
 .square-menu {
+  background-color: #E0E0E0;
   display: block;
   height: 9em;
-  background-color: #E0E0E0;
-  text-align: center;
   position: relative;
+  text-align: center;
 }
-
 .square-menu__upper-left {
   position: absolute;
   padding-top: 2em;
-  width: 40%;
   top: 1%;
+  width: 40%;
 }
-
 .square-menu__upper-right {
+  left: 50%;
   position: absolute;
   padding-top: 2em;
   width: 42%;
-  left: 50%;
 }
-
 .square-menu__lower-left {
   position: absolute;
-  width: 43%;
   top: 60%;
+  width: 43%;
 }
 .square-menu__lower-right {
-  position: absolute;
-  width: 43%;
-  top: 60%;
   left: 50%;
+  position: absolute;
+  top: 60%;
+  width: 43%;
 }
-
 .square-menu__apply {
-  display: inline-block;
-  color: #27AE60;
-  list-style-type: none;
-  text-decoration: none;
   border-bottom-style: solid;
   border-bottom-width: thin;
+  color: #27AE60;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
 }
-
 .square-menu__volunteer {
-  display: inline-block;
-  color: #27AE60;
-  list-style-type: none;
-  text-decoration: none;
   border-bottom-style: solid;
   border-bottom-width: thin;
+  color: #27AE60;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
 }
-
 .square-menu__about {
-  display: inline-block;
-  color: #27AE60;
-  list-style-type: none;
-  text-decoration: none;
   border-bottom-style: solid;
   border-bottom-width: thin;
+  color: #27AE60;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
 }
-
 .square-menu__four {
-  display: inline-block;
-  color: #27AE60;
-  list-style-type: none;
-  text-decoration: none;
   border-bottom-style: solid;
   border-bottom-width: thin;
+  color: #27AE60;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
 }
-
 .gallery {
   display: block;
   height: 15%;
+  text-align: center;
 }
-
 .gallery__img {
-  width: 100%;
   display: none;
+  margin: auto;
+  max-height: 400px;
 }
 /*Index CSS ENDS*/
 
 /*Volunteer page*/
 .key-details {
-  padding: 4%;
   background-color: #E0E0E0;
   border-bottom: 1.5px solid white;
+  padding: 4%;
 }
 /*Volunteer page ends*/
 
 /*Apply page*/
 .form {
-  display: block;
   background-color: white;
-  padding: 4%;
+  display: block;
   line-height: 1.2em;
+  padding: 4%;
   text-align: center;
 }
-
 .visually-hidden {
   display: none;
 }
-
 fieldset {
   border: none;
   text-align: left;
 }
-
 .form__input {
   border: 1px solid black;
   margin: 10px 0;
 }
-
-.form__label{
+.form__label {
   font-weight: 900;
 }
-
-.form__button{
-  margin-top: 1em;
-  padding: 0.8em;
+.form__button {
+  background-color: white;
   border: 2px solid black;
   color: #27AE60;
-  background-color: white;
   font-weight: 900;
+  margin-top: 1em;
+  padding: 0.8em;
 }
 /*Apply page ends*/
 
@@ -361,7 +300,6 @@ fieldset {
 .main__school-directors {
   text-align: center;
 }
-
 .main__school-directors__img {
   position: relative;
   width: 100%;
@@ -369,9 +307,9 @@ fieldset {
 /*About page ends*/
 
 /*FAQ page*/
-.faq{
-  display: block;
+.faq {
   background-color: white;
+  display: block;
   padding: 4%;
 }
 /*FAQ page ends*/
@@ -381,80 +319,67 @@ fieldset {
   .cover__title {
     font-size: 4em;
   }
-
-  .cover--smaller {
-    margin: 1% 0;
-    height: 60vh;
-    overflow: hidden;
+  .cover {
     background-size: cover;
     background-position: bottom;
+    height: 60vh;
+    margin: 1% 0;
+    overflow: hidden;
   }
-
   .cover__landing {
-    height: 80vh;
     background-position: center;
+    height: 80vh;
   }
-
   .cover__volunteer {
     background-position: center;
   }
-
   .main {
     margin: 3% 10%;
+    padding-top: 0em;
   }
-
   .gallery {
     margin: 5% 10%;
   }
-
   .form {
     margin: 3% 10%;
     padding: 0.5em 0em;
   }
-
-  #menu {
+  #nav__menu {
+    background-color: white;
     display: inline-block;
     position: absolute;
+    right: 0%;
     text-align: right;
     top: 1.7%;
-    right: 0%;
     width: 60%;
-    background-color: white;
     z-index: 0;
   }
-
-  .menu__list{
-    list-style-type: none;
+  .menu__list {
     display: inline;
+    list-style-type: none;
   }
-
   .menu__list__item {
+    display: inline-block;
+    padding: 1.5% 3%;
     position: relative;
-    display: inline-block;
-    padding: 1.5% 3%;
   }
-
-  .menu__list__item:hover{
-    display: inline-block;
+  .menu__list__item:hover {
     background-color: white;
-    padding: 1.5% 3%;
     border-bottom: none;
+    display: inline-block;
     font-weight: 900;
+    padding: 1.5% 3%;
   }
-
-  #hamburger {
+  #nav__hamburger {
     display: none;
   }
-
-  #cross {
+  #nav__cross {
     display: none;
   }
-
   .nav-title {
     padding-left: 3%;
     padding-top: 1.3%;
   }
-
   .main__school-directors__img {
     width: 75%;
   }

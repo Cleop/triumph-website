@@ -1,7 +1,7 @@
 {
   "name": "triumph-website",
   "version": "1.0.0",
-  "description": "Triumph School volunteering website",
+  "description": "Volunteer and teach at Triumph School, Ghana",
   "main": "start.js",
   "scripts": {
     "start": "node start.js",

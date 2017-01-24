@@ -1,16 +1,10 @@
-//   <div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-//     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-//     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-//     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-// </div>
-
-let slideIndex = 1;
+var slideIndex = 1;
 showDivs(slideIndex);
 
 function showDivs(index) {
-  let i;
-  const testimonials = document.getElementsByClassName("testimonial");
-  const dots = document.getElementsByClassName("fa-circle");
+  var i;
+  var testimonials = document.getElementsByClassName("testimonial");
+  var dots = document.getElementsByClassName("fa-circle");
   // If the current index surpasses the number of testimonials, reset it to the first slide
   if (index > testimonials.length) {slideIndex = 1}
   // Loop through the testimonials and set all of their displays to none
