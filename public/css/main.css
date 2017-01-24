@@ -335,6 +335,7 @@ fieldset {
   }
   .main {
     margin: 3% 10%;
+    padding-top: 0em;
   }
   .gallery {
     margin: 5% 10%;
