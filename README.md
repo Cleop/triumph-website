@@ -1,4 +1,7 @@
-# triumph-website
+# Triumph School Volunteering Website
+
+http://www.volunteertriumph.com/
+
 [![Build Status](https://travis-ci.org/Cleop/triumph-website.svg?branch=master)](https://travis-ci.org/Cleop/triumph-website)
 <!--
 [![codecov](https://codecov.io/gh/Cleop/triumph-website/branch/master/graph/badge.svg)](https://codecov.io/gh/Cleop/triumph-website) -->
