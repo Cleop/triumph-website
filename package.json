@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node start.js",
     "devStart": "nodemon start.js",
-    "test": "tape './src/test/*.js'"
+    "test": "npx nyc --reporter=lcov --reporter=text-summary tape './src/test/*.js'"
   },
   "repository": {
     "type": "git",
@@ -25,8 +25,8 @@
     "vision": "^4.1.1"
   },
   "devDependencies": {
-    "istanbul": "^0.4.5",
     "nodemon": "^1.11.0",
+    "nyc": "^15.0.1",
     "tape": "^4.6.3"
   }
 }
