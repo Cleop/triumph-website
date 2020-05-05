@@ -21,7 +21,7 @@ body {
   border:0;
   cursor: pointer;
   font-size: 2.3em;
-  line-height: 1.1em;
+  line-height: 1.3em;
   outline: none;
   position: absolute;
   right: 0;
@@ -33,7 +33,7 @@ body {
   cursor: pointer;
   display: none;
   font-size: 6.5em;
-  line-height: 0.68em;
+  line-height: 0.88em;
   position: absolute;
   outline: none;
   right: 0;
@@ -314,6 +314,10 @@ fieldset {
 }
 /*FAQ page ends*/
 
+.menu__list {
+    list-style-type: none;
+  }
+
 /* Larger than Ipad*/
 @media (min-width: 600px) {
   .cover__title {
@@ -356,7 +360,6 @@ fieldset {
   }
   .menu__list {
     display: inline;
-    list-style-type: none;
   }
   .menu__list__item {
     display: inline-block;
