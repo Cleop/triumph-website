@@ -4,7 +4,7 @@ showDivs(slideIndex);
 function showDivs(index) {
   var i;
   var testimonials = document.getElementsByClassName("testimonial");
-  var dots = document.getElementsByClassName("fa-circle");
+  var dots = document.getElementsByClassName("testimonial__circle");
   // If the current index surpasses the number of testimonials, reset it to the first slide
   if (index > testimonials.length) {slideIndex = 1}
   // Loop through the testimonials and set all of their displays to none

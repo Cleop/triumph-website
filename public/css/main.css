@@ -105,13 +105,13 @@ body {
 .testimonial__circles {
   background-color: inherit;
   display: block;
-  font-size: 0.5em;
-  padding-top: 1em;
-  padding-bottom: 1.5em;
+  padding-bottom: 0.5em;
 }
 .testimonial__circle {
+  display: inline-block;
   color: #828282;
-  width: 13px;
+  font-style: normal;
+  font-size: 1.8em;
 }
 .testimonial__circle--current {
   color: black;
