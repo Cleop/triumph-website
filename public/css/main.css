@@ -246,12 +246,12 @@ body {
 }
 .gallery {
   display: block;
-  height: 15%;
   text-align: center;
 }
 .gallery__img {
   display: none;
   margin: auto;
+  max-width: 100%;
   max-height: 400px;
 }
 /*Index CSS ENDS*/
